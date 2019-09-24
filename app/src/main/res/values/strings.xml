@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">cghs</string>
+    <string name="blank" />
+
+    <!-- Buttons  -->
+    <string name="btn_save">save</string>
+    <string name="btn_contact">contact</string>
+    <string name="btn_terms_of_use">terms of use</string>
+    <string name="btn_accept">accept</string>
+    <string name="btn_decline">decline</string>
+    <string name="btn_back_to_terms_of_use">back to terms of use</string>
+
+
+    <!--  text  -->
+
+    <string name="txt_terms_of_use_decline">sorry cant use the app if u dont accept</string>
+    <string name="txt_terms_of_use">terms of use</string>
+    <string name="txt_manually">Capaciteit \n  A-B =2554 nF =72.971 Km\n  A-G =345 nF =7.841 Km\n  B-G =345 nF =7.841 Km\n  Verschil\n  A-G en B-G =0%\n  A-G en B-G =0 nF\n\n  Isolatieweerstand\n  A-B =345KΩ\n  A-G =345MΩ\n  B-G =435KΩ\n  Verschil\n  A-G en B-G =199.496%\n  A-G en B-G =344565000Ω\n\n    Wel naar V.W.T infra meet slecht</string>
+    <string name="txt_scan">Capaciteit \n  A-B =2554 nF =72.971 Km\n  A-G =345 nF =7.841 Km\n  B-G =345 nF =7.841 Km\n  Verschil\n  A-G en B-G =0%\n  A-G en B-G =0 nF\n\n  Isolatieweerstand\n  A-B =345KΩ\n  A-G =345MΩ\n  B-G =435KΩ\n  Verschil\n  A-G en B-G =199.496%\n  A-G en B-G =344565000Ω\n\n    Wel naar V.W.T infra meet slecht</string>
+    <string name="txt_ruisnaamvieuw">user name</string>
+
+
+    <string name="txt_settings1">1</string>
+    <string name="txt_settings2">2</string>
+    <string name="txt_settings3">3</string>
+    <!-- switches-->
+    <string name="swi_settings_1">1</string>
+    <string name="swi_settings_2">2</string>
+    <string name="swi_settings_3">3</string>
+
+
+    <!-- misc   -->
+    <string name="misc_cghs_nl_creation">cghs.nl creation</string>
+    <string name="btn_home_menu">Home</string>
+    <string name="txt_contact_name">Name</string>
+    <string name="txt_contact_email">E-mail</string>
+    <string name="txt_contact_complaint">complaint</string>
+    <string name="btn_contact_send">send</string>
+    <string name="btn_settings">settings</string>
+    <string name="btn_help_home">Help</string>
+    <string name="btn_settings_home">settings</string>
+    <string name="btn_new_scan_home">New scan</string>
+    <string name="btn_manually_home">manually</string>
+    <string name="btn_open_website_home">open website</string>
+    <string name="btn_manually_history_home">manually history</string>
+    <string name="btn_scan_history_home">scan history</string>
+    <string name="btn_stop_qr">stop</string>
+    <string name="txt_uF_manually">uF</string>
+    <string name="txt_kohm_manually">KOhm</string>
+    <string name="txt_mohm_manyally">MOhm</string>
+    <string name="txt_nf_manually">nF</string>
+    <string name="btn_calculate_manually">calculate</string>
+    <string name="btn_home_manually">home</string>
+    <string name="txt_cap_a_b">Cap A-B</string>
+    <string name="txt_cap_a_g">Cap A-G</string>
+    <string name="txt_cap_b_g">Cap B-G</string>
+    <string name="txt_iso_a_b">Iso A-B</string>
+    <string name="txt_iso_a_g">Iso A-G</string>
+    <string name="txt_iso_b_g">Iso B-G</string>
+    <string name="txt_home_man_calc">Home</string>
+    <string name="btn_copy_man_calc">copy</string>
+    <string name="btn_delete_man_calc">delete</string>
+    <string name="btn_new_manually_man_calc">new manually</string>
+    <string name="btn_history_man_calc">History</string>
+
+    <string name="txt_home_scan">Home</string>
+    <string name="btn_copy_scan">copy</string>
+    <string name="btn_delete_scan">delete</string>
+    <string name="btn_new_scan_scan">new scan</string>
+    <string name="btn_history_scan">History</string>
+    <string name="btn_home_man_his">Home</string>
+    <string name="txt_preview_man_his">preview</string>
+    <string name="txt_time_man_his">Time en date</string>
+    <string name="btn_new_manually_man_his">New manually</string>
+    <string name="btn_copy_content_man_his">Copy Content</string>
+    <string name="btn_delete_man_his">delete</string>
+
+    <string name="btn_home_scan_his">Home</string>
+    <string name="txt_preview_scan_his">preview</string>
+    <string name="txt_time_scan_his">Time en date</string>
+    <string name="btn_new_scan_scan_his">New qr scan</string>
+    <string name="btn_copy_content_scan_his">Copy Content</string>
+    <string name="btn_delete_scan_his">delete</string>
+    <string name="btn_home_help">home</string>
+
+
+</resources>

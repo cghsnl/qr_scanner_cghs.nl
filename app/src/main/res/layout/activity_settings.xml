@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+    <EditText
+        android:id="@+id/txt_ruisnaam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="182dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/blank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ruisnaamvieuw" />
+
+    <TextView
+        android:id="@+id/txt_ruisnaamvieuw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_ruisnaamvieuw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="207dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="102dp"
+        android:text="@string/btn_save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_contact" />
+
+    <TextView
+        android:id="@+id/txt_settings1"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_settings1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ruisnaam" />
+
+    <TextView
+        android:id="@+id/txt_settings2"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_settings2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_settings1" />
+
+    <TextView
+        android:id="@+id/txt_settings3"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txt_settings3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_settings2" />
+
+
+    <Button
+        android:id="@+id/btn_back_to_terms_of_use"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_terms_of_use"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_settings3" />
+
+    <Button
+        android:id="@+id/btn_contact"
+        android:layout_width="206dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_contact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back_to_terms_of_use" />
+
+
+    <Switch
+        android:id="@+id/swi_settings1"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="112dp"
+        android:text="@string/swi_settings_1"
+        app:layout_constraintStart_toEndOf="@+id/txt_settings1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swi_settings2"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/swi_settings_2"
+        app:layout_constraintStart_toEndOf="@+id/txt_settings2"
+        app:layout_constraintTop_toBottomOf="@+id/swi_settings1" />
+
+    <Switch
+        android:id="@+id/swi_settings3"
+        android:layout_width="97dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/swi_settings_3"
+        app:layout_constraintStart_toEndOf="@+id/txt_settings3"
+        app:layout_constraintTop_toBottomOf="@+id/swi_settings2" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
